@@ -1,32 +1,22 @@
-import { useState } from 'react';
-import NavTabs from './Navigation';
-import About from './About';
-import Portfolio from './Portfolio';
-import Contact from './Contact';
-import Resume from './Resume';
-
-export default function PortfolioContainer() {
-  const [currentPage, setCurrentPage] = useState('About');
-
-  const renderPage = () => {
-    if (currentPage === 'About') {
-      return <About />;
-    }
-    if (currentPage === 'Portfolio') {
-      return <Portfolio />;
-    }
-    if (currentPage === 'Contact') {
-      return <Contact />;
-      }
-      return <Resume />;
-  };
-
-  const handlePageChange = (page) => setCurrentPage(page);
-
+export const Project = ({ name, description, href, imgSrc, imgAlt }) => {
   return (
-    <div>
-      <NavTabs currentPage={currentPage} handlePageChange={handlePageChange} />
-      <main className="mx-3">{renderPage()}</main>
+    <div className="project-info">
+      <div className="project-img">
+        <a href={href}>
+          <img
+            src={imgSrc}
+            className=""
+            style={{ width: "100%" }}
+            alt={imgAlt}
+          />
+        </a>
+      </div>
+      <div className="project-text">
+        <h4>{name}</h4>
+        <p>
+          {description}
+        </p>
+      </div>
     </div>
   );
 }

@@ -1,11 +1,21 @@
 import './App.css';
-import { Resume } from './components';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { About } from './pages/About';
 
-const App = () => 
-<>
-  <Resume />
+const App = () => {
+  return (
+    <>
+      {/* header */}
+      <BrowserRouter>
+        <Routes>
+          <Route path='/' element={<About />} />
+        </Routes>
+      </BrowserRouter>
+      {/* footer */}
+    </>
+  )
+}
 
-</>
 
 
 export default App;
