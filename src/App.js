@@ -1,8 +1,8 @@
 import './App.css';
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import NavTabs from './components/Navigation';
+import NavTabs from './components/Navigation/Navigation';
 // import { About } from './pages/About';
-import Portfolio from './pages/Portfolio';
+import Portfolio from './pages/Portfolio/Portfolio';
 // import { Contact } from './pages/Contact';
 // import { Resume } from './pages/Resume';
 
