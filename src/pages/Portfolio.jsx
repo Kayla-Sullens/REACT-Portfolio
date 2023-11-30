@@ -12,6 +12,10 @@ function Portfolio() {
         </div>
 
         <div className="projects">
+          <Project name={'CSS Snippet Cheatsheet'} description={'This was a mini project I completed with the help of a walkthrough video, to practice and showcase CSS skills.'} imgAlt={'Image of 6 CSS code snippet guides.'} imgSrc={'css-image.png'} href={'https://github.com/Kayla-Sullens/CSS-Snippet-Cheat-Sheet'} />
+          <Project name={''} description={''} imgAlt={''} imgSrc={''} href={''} />
+          <Project name={''} description={''} imgAlt={''} imgSrc={''} href={''} />
+          <Project name={''} description={''} imgAlt={''} imgSrc={''} href={''} />
           <Project name={''} description={''} imgAlt={''} imgSrc={''} href={''} />
           <Project name={''} description={''} imgAlt={''} imgSrc={''} href={''} />
         </div>
