@@ -9,7 +9,7 @@
 
 import React from "react";
 import ResumePDF from "Resume.pdf";
-import "./Resume.css";
+
 
 export default function Resume() {
     return (

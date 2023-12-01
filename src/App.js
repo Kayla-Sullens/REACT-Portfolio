@@ -1,31 +1,27 @@
 import './App.css';
-// import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import NavTabs from './components/Navigation/Navigation';
-// import { About } from './pages/About';
-import Portfolio from './pages/Portfolio/Portfolio';
+import { About } from './pages/About';
+import Portfolio from './pages/Portfolio';
 // import { Contact } from './pages/Contact';
 // import { Resume } from './pages/Resume';
 
 const App = () => {
   return (
 
-    <> 
-    <NavTabs />
-    <Portfolio />
-
-  </>
-    // <>
-    //   {/* header */}
-    //   <BrowserRouter>
-    //     <Routes>
-    //       <Route path='/' element={<About />} />
-    //       <Route path='/Portfolio' element={<Portfolio />} />
-    //       <Route path='/Contact' element={<Contact />} />
-    //       <Route path='/Resume' element={<Resume />} />
-    //     </Routes>
-    //   </BrowserRouter>
-    //   {/* footer */}
-    // </>
+    <>
+      
+      <BrowserRouter>
+      <NavTabs />
+        <Routes>
+          <Route path='/' element={<About />} />
+          <Route path='/portfolio' element={<Portfolio />} />
+          {/* <Route path='/contact' element={<Contact />} />
+          <Route path='/resume' element={<Resume />} /> */}
+        </Routes>
+      </BrowserRouter>
+      {/* footer */}
+    </>
 
   )
 }

@@ -1,20 +1,19 @@
 import React from "react";
-import "../style/About.css";
-import KaylaPhoto from '../images/KaylaPhoto.jpg'
+// import KaylaPhoto from './images/KaylaPhoto.jpg';
 
 export const About = () => {
     return (
-        <div class="container about">
-            <div class="pt-4 heading_about">
+        <div className="container about">
+            <div className="pt-4 heading_about">
                 <h1>About Me</h1>
             </div>
-            <div class="row pt-4 container about_container">
-                <div class="col justify-content-center align-self-center about_me">
-                    <div class="about_me-image">
+            <div className="row pt-4 container about_container">
+                <div className="col justify-content-center align-self-center about_me">
+                    <div className="about_me-image">
                         <img
-                            src={KaylaPhoto}
-                            class="img-fluid"
-                            alt="Kayla Sullens Profile Photo"
+                            src="./images/KaylaPhoto.jpg"
+                            className="img-fluid"
+                            alt="Kayla Sullens Profile"
                         />
                     </div>
                 </div>
