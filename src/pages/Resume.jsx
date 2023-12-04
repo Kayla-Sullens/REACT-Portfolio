@@ -8,7 +8,7 @@
 // export default Resume;
 
 import React from "react";
-import ResumePDF from "Resume.pdf";
+import ResumePDF from "./Resume.pdf";
 
 
 export default function Resume() {
@@ -24,9 +24,9 @@ export default function Resume() {
                         paddingTop: "20px",
                     }} rel="noreferrer"
                 >
-                    <Button id="resume-button" className="resume-button">
+                    {/* <Button id="resume-button" className="resume-button">
                         Click Here to Download My Resume
-                    </Button>
+                    </Button> */}
                 </a>
             
                 <div className="column">

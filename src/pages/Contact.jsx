@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-const App = () => {
+const Form = () => {
 
     const [ name, setName ] = useState('')
     const [ email, setEmail ] = useState('')
@@ -33,4 +33,4 @@ const App = () => {
   )
   }
 
-export default App;
+export default Form;
