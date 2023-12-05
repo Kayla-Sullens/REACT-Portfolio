@@ -24,9 +24,9 @@ export default function Resume() {
                         paddingTop: "20px",
                     }} rel="noreferrer"
                 >
-                    {/* <Button id="resume-button" className="resume-button">
+                    <button id="resume-button" className="resume-button">
                         Click Here to Download My Resume
-                    </Button> */}
+                    </button>
                 </a>
             
                 <div className="column">
