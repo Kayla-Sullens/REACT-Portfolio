@@ -2,40 +2,27 @@ import { NavLink } from "react-router-dom";
 
 function NavTabs() {
     return (
-      <ul className="nav nav-tabs">
-        <li className="nav-item">
-          <NavLink
-            to="/"
-            className="nav-link"
-          >
-            About
-          </NavLink>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <h3> Kayla Sullens </h3>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="/">About</a>
         </li>
-        <li className="nav-item">
-          <NavLink
-            to="/portfolio"
-            className="nav-link"
-          >
-            Portfolio
-            </NavLink>
+        <li class="nav-item">
+          <a class="nav-link" href="/portfolio">Portfolio</a>
         </li>
-        <li className="nav-item">
-          <NavLink
-            to="/contact"
-            className="nav-link"
-          >
-            Contact
-          </NavLink>
+        <li class="nav-item">
+          <a class="nav-link" href="/contact">Contact</a>
         </li>
-        <li className="nav-item">
-          <NavLink
-            to="/resume"
-            className="nav-link"
-          >
-            Resume
-          </NavLink>
+        <li class="nav-item">
+          <a class="nav-link" href="/resume">Resume</a>
         </li>
       </ul>
+    </div>
+  </div>
+</nav>
     );
   }
   

@@ -1,5 +1,5 @@
 import React from "react";
-// import KaylaPhoto from './images/KaylaPhoto.jpg';
+
 
 export const About = () => {
     return (

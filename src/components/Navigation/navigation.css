@@ -2,7 +2,7 @@
     text-align: center;
     display: block;
     width: 100%;
-    background-color: rgb(41, 90, 132);
+    background-color: rgb(9, 37, 62);
     
   }
   
@@ -15,4 +15,5 @@
   .navbar .navbar-brand > .navbar-item,
   .navbar .navbar-brand .navbar-link {
     display: inline-block;
+    size: 30px;
   }
