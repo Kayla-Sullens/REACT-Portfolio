@@ -28,9 +28,10 @@ const Form = () => {
         <textarea id="message" name="message" value={message} onChange={e => setMessage(e.target.value)}/>
       </div>
 
-      <button type="submit" onClick={handleSubmit}>Submit</button>
+      <button class="submit-btn" type="submit" onClick={handleSubmit}>Submit</button>
     </form>
   )
   }
 
 export default Form;
+

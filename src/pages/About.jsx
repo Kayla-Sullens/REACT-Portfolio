@@ -9,10 +9,10 @@ export const About = () => {
             </div>
             <div className="row pt-4 container about_container">
                 <div className="col justify-content-center align-self-center about_me">
-                    <div className="about_me-image">
+                    <div className="profile-img">
                         <img
                             src="./images/KaylaPhoto.jpg"
-                            className="img-fluid"
+                            className="profile-img"
                             alt="Kayla Sullens Profile"
                         />
                     </div>

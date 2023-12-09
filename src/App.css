@@ -2,23 +2,28 @@
 body {
   background-color: #7ea5f2;
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 20px;
+  font-size: 16px;
 }
 
-header {
-  margin-bottom: 10px;
+h1 {
+  padding: 10px;
+  margin-left: 20px;
+  margin-top: 20px;
+  font-style: italic;
 }
 
-header h1 {
-  display: inline-block;
-  font-size: 36px;
-  text-align: left;
-  align-items: center;
-  justify-content: space-around;
+h3 {
+  font-style: italic;
+  color: rgb(75, 15, 75);
+}
+
+.profile-img {
+  height: 600px;
+  padding: 15px;
 }
 
 nav {
-  position: fixed;
+  position: relative;
   top: 0;
   width: 100%;
   padding: 10px;
@@ -31,7 +36,6 @@ nav ul {
   position: relative;
   right: 40px;
   list-style-type: none;
-  border-style: dashed;
 }
 
 nav ul li {
@@ -47,24 +51,66 @@ nav ul li a {
   text-decoration: none;
 } 
 
+.header-name {
+ font-size: 20px;
+ text-align: left;
+}
 
 main {
   flex-wrap: wrap;
   display: flex;
 }
 
+.section-title {
+  font-size: 30px;
+  padding: 10px;
+}
+
 .projects {
   padding: 10px;
   text-align: center;
-  text-size-adjust: auto;
-  border-style: solid;
-  border-width: 1px;
+  font-size: 20px;
   flex-direction: column;
 }
 
-.project-img {
-  max-width: 600px;
-  max-height: 450px;
+.projects-img {
+  padding: 10px;
+  align-items: center;
+}
+
+.projects-name {
+  font-size: 50px;
+}
+
+.websiteBtn {
+  background-color:rgb(22, 73, 117);
+  color: white;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+#resume-button {
+  background-color:rgb(22, 73, 117);
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.skills {
+  font-size: 30px;
+  padding: 10px;
+  color: rgb(22, 73, 117);
+  font-style: bold;
+}
+
+.resumeSkills {
+  font-size: 20px;
+}
+
+li {
+  list-style-type: none;
 }
 
 .git-hub {
@@ -76,7 +122,32 @@ footer {
   padding: 25px;
   justify-content: center;
   margin-top: 3%;
-  font-size: 12px
+  font-size: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding: 15px 15px;
+  width: 50%;
+}
+
+.submit-btn {
+  background-color:rgb(105, 89, 176);
+  color:aliceblue;
+  border-radius: 8px;
+  width: 250px;
+  font-size: 16px;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 1.5rem;
+  border-radius: 5px;
+  background: transparent;
+  border: 4px solid rgb(107, 63, 125);
+  resize: none;
 }
 
 /* Media Query */

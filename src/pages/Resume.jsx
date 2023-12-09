@@ -1,12 +1,3 @@
-// import resume from './Resume.pdf';
-// // Downloadable Resume goes here
-// const Resume = () => 
-// <>
-// <h1>Resume</h1>
-//     <iframe src={resume} />
-// </>
-// export default Resume;
-
 import React from "react";
 import ResumePDF from "./Resume.pdf";
 
@@ -16,8 +7,6 @@ export default function Resume() {
             <div>
                 <a
                     href={ResumePDF}
-                    download="Kayla Sullens' Resume"
-                    target="_blank"
                     style={{
                         display: "flex",
                         justifyContent: "center",
@@ -30,9 +19,8 @@ export default function Resume() {
                 </a>
             
                 <div className="column">
-        <p className="content is-medium">Skills</p>
-        <hr />
-        <ul>
+        <p className="skills">Skills</p>
+        <ul className="resumeSkills">
             <li>HTML, CSS, Javascript</li>
             <li>Express, Node, MySQL</li>
             <li>React</li>
@@ -42,3 +30,4 @@ export default function Resume() {
         
     );
 }
+

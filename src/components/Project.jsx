@@ -15,8 +15,10 @@ export const Project = ({ name, description, application, repo, imgSrc, imgAlt }
             style={{ width: "50%" }}
             alt={imgAlt}
           />
-          <a href={application} className="websiteBtn"><button>Application</button></a>
-          <a href={repo} className="websiteBtn"><button>GitHub Repo</button></a>
+      </div>
+      <div>
+      <a href={application}><button className="websiteBtn">Application</button></a>
+          <a href={repo}><button className="websiteBtn">GitHub Repo</button></a>
       </div>
     </div>
   );
